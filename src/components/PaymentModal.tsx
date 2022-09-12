@@ -52,7 +52,7 @@ export const PaymentModal = ({ isOpen, onClose, user }: Props) => {
                 <ModalOverlay />
                 <ModalContent>
                     {!isPaid &&
-                        <ModalHeader>Pagamento para {user?.name}</ModalHeader>
+                        <ModalHeader>Payment to {user?.name}</ModalHeader>
                     }
                     <ModalCloseButton />
                     <ModalBody>
